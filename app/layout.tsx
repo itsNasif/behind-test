@@ -1,0 +1,3 @@
+import type {Metadata} from "next"; import "./globals.css";
+export const metadata:Metadata={title:"Behind Semiconductor | Engineering the Next Silicon",description:"Behind Semiconductor is a Bangladesh-based semiconductor venture focused on affordable memory and future processor technologies.",metadataBase:new URL("https://behindsemiconductor.com"),openGraph:{title:"Behind Semiconductor",description:"Engineering the next silicon from Bangladesh.",type:"website"}};
+export default function Layout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
